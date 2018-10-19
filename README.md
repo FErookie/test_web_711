@@ -1,4 +1,5 @@
 # test_web_711
+最开始应该先建一个数据库 newText create database "newText";
 使用之前先把自己的数据库信息换到config.js 里 之后运行create.js 会多创建两个列在终端里跑以下命令 
 ALTER TABLE details DROP COLUMN "createdAt";
 ALTER TABLE details DROP COLUMN "updatedAt";
